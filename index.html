@@ -4,23 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>بطاقتي التعريفية</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
     <!--  قم بربط هذه الصفحة  مع css -->
     <!--  ربط google fonts -->
   </head>
 
   <body>
+    
     <nav>
       <div class="nav-elements">
-        <a href="#">هويّتي</a>
-        <a href="#">هواياتي</a>
+        <a href="#me">هويّتي</a>
+        <a href="#hobbies">هواياتي</a>
       </div>
     </nav>
-    <h1>مرحباً، أنا طالب في مسار الويب</h1>
+
+    <div>
+
+    <h1>مرحباً، أنا اسرار  طالب في مسار الويب</h1>
     <h2>وسوف أنشئ بطاقتي التعريفية</h2>
 
     <!--------------------(البطاقة)-------------------->
 
-    <div class="card center">
+    <div ID="me"class="card center">
       <!--------------------(الصورة)------------------->
       <img src="./img/kid.png" alt="person" />
 
@@ -29,9 +36,9 @@
       <h4>هواياتي المفضلة</h4>
 
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>1-السباحه</li>
+        <li>2-الجري</li>
+        <li>3-برمجه الروبوتات</li>
       </ul>
 
       <a href="https://code.kw/">
@@ -40,6 +47,41 @@
     </div>
     <!-------------------(الهوايات)------------------>
     <!-- قم بإضافة صور هواياتك هنا -->
-    <div class="hobbies"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- I put the brakes so the "nav" can make a difference  -->
+    <div ID="hobbies"class="hobbies">
+      
+     <div > 
+        <img src="./img/mbot.jpg" class="bot" >
+      </div>
+
+
+    <div >  
+      <img src="./img/run.jpg" class="run">
+
+    </div>  
+
+       <div >
+          <img src="./img/swim.jpg" class="swm">
+        </div>
+        
+        
+
+
+      </div>
+
+
+
+    </div>
   </body>
 </html>

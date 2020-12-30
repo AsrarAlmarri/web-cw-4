@@ -1,17 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
 body {
   /* المطلوب الأول هنا */
+  font-family: 'Cairo', sans-serif;
   text-align: center;
   background-size: cover;
+  background-image: url(./img/KuwaitCodesWallpaper.png);
 }
 
 /* المطلوب الثاني هنا */
 nav {
+ 
+  display: flex;
+  justify-content:center;
+  background-color: rgba(253, 253, 253, 0.699);
+  border-radius: 10px;
+
 }
-.nav-elements {
+
+.nav-elements{
+  display: flex;
+  justify-content: space-between;
+  width:150px;
 }
+
 
 .card {
   /* المطلوب الثالث هنا */
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 12px;
+
   width: 400px;
   height: 500px;
   background-color: white;
@@ -22,11 +40,20 @@ img {
   width: 120px;
   height: 120px;
   margin-top: 20px;
+
+
+  box-shadow: 3px 2px 5px grey;
+  border-radius: 50%;
 }
 
 .hobbies {
   /* المطلوب السادس هنا */
+  display: grid;
+  grid-template-columns: auto auto auto;
+ justify-content: space-between;
+  
 }
+
 
 .center {
   margin: auto;
@@ -41,4 +68,39 @@ ul {
 a {
   text-decoration: none;
   color: black;
+}
+/* bonus */
+
+.bot{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.bot:hover{
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+
+}
+
+.run{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.run:hover{
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+
+}
+
+
+.swm{
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.swm:hover{
+  width: 300px;
+  height: 300px;
+  transform: rotate(360deg);
+
 }
